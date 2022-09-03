@@ -1,0 +1,255 @@
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+/*----- Hero ---- */
+#hero {
+    height: 650px;
+    background-image: url('../assets/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  rgb(64, 59, 59);
+    background-blend-mode: overlay;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    max-width: 40px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 30px;
+}
+
+nav ul li a {
+    color: #ffffff;
+}
+
+h1 {
+    width: 760px;
+    font-size: 54px;
+    color: #ffffff;
+    margin: 130px 0 40px 0;
+}
+.primary {
+    background-color: #ff6437;
+    width: 284px;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.secondary {
+    background-color: transparent;
+    width: 284px;
+    padding: 18px;
+    color: #ff6437;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #ff6437;
+    cursor: pointer;
+}
+
+/*------ Features -----*/
+#features {
+    margin-top: 100px;
+    height: 250px;
+    /* background-color: rebeccapurple; */
+    /* display: flex;
+    align-items: center; */
+}
+.cards-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.fa {
+    color: #ff6437;
+    font-size: 50px;
+}
+.card-header {
+    display: flex;
+    justify-content: center;
+}
+.card-body {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+/*----- Sponsors -------*/
+#sponsors {
+    height: 250px;
+    background-color: #F8F8F8;
+    padding-top: 30px ;
+}
+#sponsors img {
+    max-width: 80px;
+}
+.sponsors-content {
+    display: flex;
+    justify-content: space-around;
+}
+/*------- Gallery ----*/
+#destion-package {
+   margin-top: 100px;
+}
+.cards-img {
+    background-image: url('../assets/1.jpg');
+    /* height: 250px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    /* width: 200px; */
+}
+.cards-img a {
+    color: #ff6437;
+    font-size: 18px;
+}
+.cards-img i {
+    color: #F8F8F8;
+    font-size: 18px;
+}
+.card-img-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.cards-img:first-child {
+    grid-column: span 1;
+    grid-row: span 8;
+}
+.cards-img:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 16;
+    background-image: url('../assets/2.jpg');
+}
+.cards-img:nth-child(3) {
+    grid-column: span 1;
+    grid-row: span 8;
+    background-image: url('../assets/3.jpg');
+}
+.cards-img:nth-child(4) {
+    grid-column: span 1;
+    grid-row: span 8;
+    background-image: url('../assets/2.jpg');
+}
+
+.cards-img:last-child {
+    grid-column: span 1;
+    grid-row: span 8;
+    background-image: url('../assets/1.jpg');
+}
+
+/*-------- Register Now ---- */
+#register-now {
+    margin-top: 100px;
+    background-color: #F8F8F8;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+.register-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.register-content h2 {
+    margin-bottom: 30px;
+    font-size: 64px;
+    color: #ff6437;
+}
+/*----- Footer ----*/
+footer {
+    background-color: #0E0604;
+    height: 450px;
+    padding-top: 40px;
+}
+
+footer img {
+    max-width: 70px;
+    padding-bottom: 30px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 50px;
+}
+.col ul li a{
+    color: #F8F8F8;
+    font-size: 18px;
+}
+.col ul li {
+    padding-bottom: 10px;
+}
+.foot-headings {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+input[type="email"] {
+    width: 320px;
+    padding: 22px;
+    border: 0;
+}
+.footer-btn {
+    position: relative;
+    left: -10px;
+    top: 1px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.row ul {
+    display: flex;
+}
+
+.row ul li {
+    padding-right: 15px;
+}
+.row ul li a {
+    color: #F8F8F8;
+    font-size: 18px;
+}
